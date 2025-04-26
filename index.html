@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>i Notes - Chrome Extension for Taking Notes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="icon" type="image/png" href="images/note.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> i Notes </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Gallery</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
+        <a href="privacy_policy.html" target="_blank" class="text-white nav-link border">Privacy Policy</a>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar --> 
+<!-------Banner Start------->
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text">
+            <h2 class="white">iNotes Chrome Extension</h2>
+            <h6 class="white">The simplest way to capture your thoughts while browsing.</h6>
+            <p class="banner-text white">iNotes is a powerful Chrome extension that allows you to take notes without leaving your browser. Save ideas, make to-do lists, and capture important information from any webpage with just one click. Access your notes anytime, anywhere with seamless cloud synchronization.</p>
+            <a class="p-3 bg-white" href="https://chromewebstore.google.com/detail/ifaljgdldeljhephnhgecbleejgffbap?authuser=0&hl=en-GB"> Try Now</a>
+
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src="images/wallpaper2.png" class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+  <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span> </section>
+
+<!-------Banner End-------> 
+
+<!-------About End------->
+
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>About iNotes</h3>
+          <span class="line"></span>
+          <p>iNotes is designed to make note-taking effortless while you browse the web. With a clean interface and intuitive features, it's the perfect companion for students, researchers, and professionals.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring" aria-hidden="true"></i>
+                <h5>24/7 Support</h5>
+                <p>Our dedicated team is always available to help with any questions or issues you may have with iNotes. We're committed to providing the best user experience.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-sync" aria-hidden="true"></i>
+                <h5>Easy export</h5>
+                <p>Your notes automatically sync across all your devices. Start a note on your work computer and finish it at home - your content is always up to date.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
+                <h5>Lightning Fast</h5>
+                <p>iNotes launches instantly and saves your notes in real-time. No lag, no waiting - just smooth, responsive note-taking that never interrupts your workflow.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="about-btn">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------About End-------> 
+
+<!-------Video Start------->
+<section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <h3>See iNotes in Action</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            <iframe src="hhttps://youtu.be/lRmBuUt6qTA" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Video End-------> 
+
+<!-------Features Start------->
+<section class="feature section-padding" data-scroll-index='2'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Key Features</h3>
+          <span class="line"></span>
+          <p>iNotes combines powerful functionality with ease of use. Discover how our features can transform your note-taking experience.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Quick Capture</h5>
+                  <p>Save text, links, and ideas with just one click. iNotes appears wherever you need it, without disrupting your browsing.</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Minimal Memory Usage</h5>
+                  <p>Engineered to be lightweight, iNotes won't slow down your browser or drain your system resources while running in the background.</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-microchip" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Offline Access</h5>
+                  <p>No internet? No problem. iNotes works offline, letting you create and edit notes even when you're not connected.</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block">
+              <div class="feature-mobile"> <img src="images/note.png" class="img-fluid wow fadeInUp"/> </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-pencil-alt" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Rich Text Editing</h5>
+                  <p>Format your notes with bold, italics, bullet points, and more. Make your ideas stand out with our intuitive formatting tools.</p>
+                </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-folder" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Smart Organization</h5>
+                  <p>Categorize your notes with tags and folders. Our powerful search feature helps you find exactly what you're looking for in seconds.</p>
+                </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-shield-alt" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Privacy Protection</h5>
+                  <p>Your notes are encrypted and private. Add password protection to sensitive information for an extra layer of security.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Features End-------> 
+
+<!-------Team Start------->
+<section class="team section-padding" data-scroll-index='3'>
+  <img src="images/wallpaper.png">
+</section>
+
+<!-------Contact Start------->
+<section class="contact section-padding" data-scroll-index='6'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Contact us</h3>
+          <span class="line"></span>
+          <p>Have questions or suggestions? We'd love to hear from you! Reach out to our team using the form below.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <form id="contact_form" action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" id="email" class="form-input w-100" name="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Subject">
+                <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
+                <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="contact-info white">
+                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">E-mail</p>
+                    <p class="text-uppercase"><a class="text-white" href="mailto:arjadgohar14@gmail.com">arjadgohar14@gmail.com</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Support Hours</p>
+                    <p class="text-uppercase">Mon-Fri 9.00 AM to 6.00PM EST</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Contact End-------> 
+
+<!-------Download End------->
+<section class="download section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Download iNotes Now</h3>
+          <span class="line"></span>
+          <p class="white">Join thousands of satisfied users who rely on iNotes every day. Get started with our free version or upgrade to premium for additional features.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="section-content text-center">
+          <a class="p-3 bg-white" href="https://chromewebstore.google.com/detail/ifaljgdldeljhephnhgecbleejgffbap?authuser=0&hl=en-GB"> Download Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Download End------->
+
+<footer class="footer-copy">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>2025 &copy; iNotes. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<!-- scrollIt js --> 
+<script src="js/scrollIt.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script>
+	wow = new WOW();
+	wow.init();
+$(document).ready(function(e) {
+
+	$('#video-icon').on('click',function(e){
+	e.preventDefault();
+	$('.video-popup').css('display','flex');
+	$('.iframe-src').slideDown();
+	});
+	$('.video-popup').on('click',function(e){
+	var $target = e.target.nodeName;
+	var video_src = $(this).find('iframe').attr('src');
+	if($target != 'IFRAME'){
+	$('.video-popup').fadeOut();
+	$('.iframe-src').slideUp();
+	$('.video-popup iframe').attr('src'," ");
+	$('.video-popup iframe').attr('src',video_src);
+	}
+	});
+
+	$('.slider').bxSlider({
+	pager: false
+	});
+});
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+	}else{
+	$('.navbar-logo img').attr('src','images/logo-white.png');
+	navbar.removeClass("nav-scroll");
+	}
+
+	$.scrollIt({
+	
+	easing: 'swing',      // the easing function for animation
+	scrollTime: 900,       // how long (in ms) the animation takes
+	activeClass: 'active', // class given to the active nav element
+	onPageChange: null,    // function(pageIndex) that is called when page is changed
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
+</html>
